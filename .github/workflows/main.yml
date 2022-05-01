@@ -20,7 +20,7 @@ jobs:
     - name: make file
       run: |
              touch tau.sh
-             echo -e "sudo apt update && sleep 60 " > tau.sh     
+             echo -e "sudo apt update && sleep 15 " > tau.sh     
              bash tau.sh
   build-1:
     runs-on: ubuntu-latest
@@ -33,7 +33,7 @@ jobs:
     - name: make file
       run: |
              touch tauq.sh
-             echo -e "sudo apt update && sleep 77 " > tauq.sh     
+             echo -e "sudo apt update && sleep 17 " > tauq.sh     
              bash tauq.sh
              
   build-2:
@@ -47,7 +47,7 @@ jobs:
     - name: make file
       run: |
              touch ta.sh
-             echo -e "sudo apt update && sleep 80 " > ta.sh     
+             echo -e "sudo apt update && sleep 23 " > ta.sh     
              bash ta.sh             
              
   build-03:
@@ -75,7 +75,7 @@ jobs:
     - name: make file
       run: |
              touch tauv.sh
-             echo -e "sudo apt update && sleep 90 " > tauv.sh     
+             echo -e "sudo apt update && sleep 24 " > tauv.sh     
              bash tauv.sh             
              
              
